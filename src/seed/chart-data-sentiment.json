@@ -1,0 +1,212 @@
+[
+    {
+        "label": "2023-06-21T00:49:24Z",
+        "irrelevant": 115,
+        "positive": 342,
+        "negative": 41,
+        "neutral": 268
+    },
+    {
+        "label": "2023-06-22T00:49:24Z",
+        "irrelevant": 180,
+        "positive": 322,
+        "negative": 13,
+        "neutral": 166
+    },
+    {
+        "label": "2023-06-23T00:49:24Z",
+        "irrelevant": 39,
+        "positive": 330,
+        "negative": 8,
+        "neutral": 361
+    },
+    {
+        "label": "2023-06-24T00:49:24Z",
+        "irrelevant": 39,
+        "positive": 639,
+        "negative": 10,
+        "neutral": 285
+    },
+    {
+        "label": "2023-06-25T00:49:24Z",
+        "irrelevant": 87,
+        "positive": 360,
+        "negative": 4,
+        "neutral": 210
+    },
+    {
+        "label": "2023-06-26T00:49:24Z",
+        "irrelevant": 77,
+        "positive": 669,
+        "negative": 6,
+        "neutral": 312
+    },
+    {
+        "label": "2023-06-27T00:49:24Z",
+        "irrelevant": 26,
+        "positive": 372,
+        "negative": 3,
+        "neutral": 173
+    },
+    {
+        "label": "2023-06-28T00:49:24Z",
+        "irrelevant": 125,
+        "positive": 207,
+        "negative": 6,
+        "neutral": 136
+    },
+    {
+        "label": "2023-06-29T00:49:24Z",
+        "irrelevant": 20,
+        "positive": 79,
+        "negative": -1,
+        "neutral": 203
+    },
+    {
+        "label": "2023-06-30T00:49:24Z",
+        "irrelevant": 35,
+        "positive": 308,
+        "negative": 1,
+        "neutral": 192
+    },
+    {
+        "label": "2023-07-01T00:49:24Z",
+        "irrelevant": 40,
+        "positive": 358,
+        "negative": 0,
+        "neutral": 155
+    },
+    {
+        "label": "2023-07-02T00:49:24Z",
+        "irrelevant": 0,
+        "positive": 17,
+        "negative": 1,
+        "neutral": -1
+    },
+    {
+        "label": "2023-07-03T00:49:24Z",
+        "irrelevant": -1,
+        "positive": -1,
+        "negative": -1,
+        "neutral": -1
+    },
+    {
+        "label": "2023-07-04T00:49:24Z",
+        "irrelevant": 0,
+        "positive": 1,
+        "negative": -1,
+        "neutral": 1
+    },
+    {
+        "label": "2023-07-05T00:49:24Z",
+        "irrelevant": 93,
+        "positive": 168,
+        "negative": 6,
+        "neutral": 342
+    },
+    {
+        "label": "2023-07-06T00:49:24Z",
+        "irrelevant": 73,
+        "positive": 201,
+        "negative": 5,
+        "neutral": 399
+    },
+    {
+        "label": "2023-07-07T00:49:24Z",
+        "irrelevant": 39,
+        "positive": 118,
+        "negative": 6,
+        "neutral": 129
+    },
+    {
+        "label": "2023-07-08T00:49:24Z",
+        "irrelevant": 39,
+        "positive": 165,
+        "negative": 5,
+        "neutral": 330
+    },
+    {
+        "label": "2023-07-09T00:49:24Z",
+        "irrelevant": 154,
+        "positive": 241,
+        "negative": 2,
+        "neutral": 263
+    },
+    {
+        "label": "2023-07-10T00:49:24Z",
+        "irrelevant": 45,
+        "positive": 191,
+        "negative": 0,
+        "neutral": 157
+    },
+    {
+        "label": "2023-07-11T00:49:24Z",
+        "irrelevant": 67,
+        "positive": 157,
+        "negative": 5,
+        "neutral": 201
+    },
+    {
+        "label": "2023-07-12T00:49:24Z",
+        "irrelevant": 43,
+        "positive": 194,
+        "negative": 2,
+        "neutral": 193
+    },
+    {
+        "label": "2023-07-13T00:49:24Z",
+        "irrelevant": 13,
+        "positive": 32,
+        "negative": 2,
+        "neutral": 34
+    },
+    {
+        "label": "2023-07-14T00:49:24Z",
+        "irrelevant": 10,
+        "positive": 56,
+        "negative": 0,
+        "neutral": 206
+    },
+    {
+        "label": "2023-07-15T00:49:24Z",
+        "irrelevant": 25,
+        "positive": 44,
+        "negative": 0,
+        "neutral": 154
+    },
+    {
+        "label": "2023-07-16T00:49:24Z",
+        "irrelevant": 52,
+        "positive": 70,
+        "negative": 7,
+        "neutral": 202
+    },
+    {
+        "label": "2023-07-17T00:49:24Z",
+        "irrelevant": 53,
+        "positive": 93,
+        "negative": 3,
+        "neutral": 238
+    },
+    {
+        "label": "2023-07-18T00:49:24Z",
+        "irrelevant": 35,
+        "positive": 77,
+        "negative": 5,
+        "neutral": 182
+    },
+    {
+        "label": "2023-07-19T00:49:24Z",
+        "irrelevant": 29,
+        "positive": 166,
+        "negative": 5,
+        "neutral": 228
+    },
+    {
+        "label": "2023-07-20T00:49:24Z",
+        "irrelevant": 14,
+        "positive": 21,
+        "negative": 3,
+        "neutral": 90
+    }
+]
