@@ -1,7 +1,19 @@
 import { promises as fs } from 'fs';
 import path from 'path';
+import { cache as reactCache } from 'react';
 
-const seed_path = (prefix: string, tweep: string, extension: string) => path.join(process.cwd(), 'src', 'seed',`${prefix}_${tweep}.${extension}`);
+const seed_path = (prefix: string, tweep: string, extension: string) => path.join(process.cwd(), 'seed',`${prefix}_${tweep}.${extension}`);
+
+export function sortByDate(tweets: any[] | undefined) {
+  return tweets?.filter(Boolean)?.sort((a, b) => {
+    const aDate = new Date(a.created_at);
+    const bDate = new Date(b.created_at);
+
+    if (aDate > bDate) return -1;
+    if (aDate < bDate) return 1;
+    return 0;
+  });
+}
 
 async function readFile({ prefix, tweep, extension = 'json', encoding = 'utf-8' } : { prefix: string, tweep: string, extension?: string, encoding?: BufferEncoding }, parse?: boolean): Promise<any[] | undefined> {
   const file = seed_path(prefix, tweep, extension);
@@ -25,8 +37,8 @@ export async function findTopics(tweep: string): Promise<any[] | undefined> {
   return readFile({ prefix: 'topics_latest_100_tweets', tweep }, true);
 }
 
-export async function findTweeps(): Promise<any[] | undefined> {
-  return [
+export async function findTweeps(tweeps?: string[]): Promise<any[] | undefined> {
+  const data = [
     {
       id_str: '747681743201796096',
       name: 'عبدالعزيز أحمد بغلف🇸🇦',
@@ -118,4 +130,17 @@ export async function findTweeps(): Promise<any[] | undefined> {
       profile_image_shape: 'Circle'
     },
   ];
+
+  if (tweeps) {
+    return data.filter(({ screen_name }) => tweeps.includes(screen_name));
+  }
+
+  return data;
 }
+
+export const diskCache = {
+  findTweeps: reactCache(findTweeps),
+  findTweets: reactCache(findTweets),
+  findSentiment: reactCache(findSentiment),
+  findTopics: reactCache(findTopics),
+};
