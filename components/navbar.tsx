@@ -22,6 +22,7 @@ import {
 } from "@/components/icons";
 
 import { Logo } from "@/components/icons";
+import { fontMono } from '@/config/fonts';
 
 export const Navbar = () => {
 
@@ -31,7 +32,7 @@ export const Navbar = () => {
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
 						<Logo />
-						<p className="font-bold text-inherit">مقياس</p>
+						<p className={`font-bold text-lg text-inherit ${fontMono.className}`}>مقياس</p>
 					</NextLink>
 				</NavbarBrand>
 				<ul className="hidden lg:flex gap-4 justify-start ml-2">
