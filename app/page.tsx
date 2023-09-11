@@ -102,6 +102,7 @@ export default async function Home() {
               <div className="space-x-reverse space-x-4">
                 <Button
                   href={`/u/${screen_name}`}
+                  isDisabled
                   as={NextLink}
                   color="primary"
                 >
