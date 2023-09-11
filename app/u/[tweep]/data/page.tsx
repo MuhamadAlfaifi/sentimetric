@@ -6,7 +6,7 @@ export default async function TweetsPage({ params }: { params: { tweep: string }
 
   return (
     <div>
-      {tweets?.filter(Boolean)?.map(({ id_str }) => <div dir="ltr"><Tweet id={id_str} /></div>)}
+      {tweets?.filter(Boolean)?.map(({ id_str }) => <div dir="ltr" key={id_str}><Tweet id={id_str} /></div>)}
     </div>
   );
 }
