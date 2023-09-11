@@ -54,7 +54,7 @@ export default async function Home() {
         }, i) =>
           <Card key={i}>
             <CardHeader>
-              <NextLink href={`/u/${screen_name}`} className="py-4 px-4 space-y-2 w-full">
+              <NextLink href="#" className="py-4 px-4 space-y-2 w-full">
                 <User
                   name={name}
                   description={
