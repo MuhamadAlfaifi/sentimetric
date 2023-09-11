@@ -1,12 +1,17 @@
-import { findTweets } from '@/lib/disk';
-import { Tweet } from 'react-tweet';
+import { Link } from '@nextui-org/link';
+import NextLink from 'next/link';
+import { FileText } from 'react-feather';
 
 export default async function UserPage({ params }: { params: { tweep: string } }) {
-  const tweets = await findTweets(params.tweep);
-
   return (
     <div>
-      {tweets?.filter(Boolean)?.map(({ id_str }) => <div dir="ltr"><Tweet id={id_str} /></div>)}
+      <Link 
+        href={`/u/${params.tweep}/tweets`}
+        as={NextLink}
+      >
+        <span>عرض البيانات</span>
+        <FileText className="mr-2" />
+      </Link>
     </div>
   );
 }
